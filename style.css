@@ -1,0 +1,26 @@
+*::after,
+*::before,
+* {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  text-align: center;
+}
+body h1 {
+  font-size: 3rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*****JS Classes*****/
+.boxSize {
+  flex: 1 calc(100% / 3);
+  height: 150px;
+  border: solid 3px black;
+}
